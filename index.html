@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinky's Baking Lab</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="preloader">
+        <img src="img/loader.gif" alt="We are loading your cake">
+        <p>Loading your cake ;)</p>
+    </div>
+    
+
+
+    <div class="home">
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="about.html">About</a>
+            <span class="logo">Dbl</span>
+            <a href="Menu.html">Menu</a>
+            <a href="Contact.html">Contact</a>
+        </nav>
+
+        <div class="banner">
+            <h3>Dinky's Baking Lab</h3>
+            <h2>I Make <span class="typed2"></span></h2>
+        </div>
+    </div>
+
+
+
+
+
+
+<!--------cake-------->
+
+
+
+
+    <script src="javascript/typed.js"></script>
+
+    <script>
+
+
+
+        
+
+        
+
+var options = {
+  strings: ["Cakes",
+            "Muffins",
+            "Cupcakes",
+            "Brownies",
+            "Jars"],
+  typeSpeed: 100,
+  backspeed: 100,
+  loop: true
+};
+
+var typed = new Typed('.typed2', options);
+
+    </script>
+
+
+<script>
+    var preloader = document.getElementById("preloader");
+
+    window.addEventListener('load', function(){
+        preloader.style.display = 'none'
+    })
+
+
+</script>
+
+
+</body>
+</html>
